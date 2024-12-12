@@ -2,13 +2,13 @@ import random
 import pandas as pd 
 import numpy as np
 
-id_1 = 0000 #change to first student id
-id_2 = 0000 #change to second student id
-id_3 = 0000 #change to third student id "leave 0000 if team of 2"
+id_1 = 7979 #change to first student id
+id_2 = 8213 #change to second student id
+id_3 = 8291 #change to third student id "leave 0000 if team of 2"
 random_seed = id_1+id_2+id_3
 random.seed(random_seed)
 data_path="data.csv"#replace with data path
-output_path="your_data.csv"#replace with output data path
+output_path="Ndata.csv"#replace with output data path
 
 all_data=pd.read_csv(data_path) 
 all_columns = all_data.columns.tolist()
